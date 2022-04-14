@@ -3,8 +3,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,django
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,django
 
-#### virtualenv
-ecom_venv/
 
 
 
@@ -139,6 +137,11 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+
+#### virtualenv
+ecom_venv/
+
 
 # Spyder project settings
 .spyderproject
