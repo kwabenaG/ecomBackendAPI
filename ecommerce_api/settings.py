@@ -27,7 +27,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    #internal apps
+    'account.apps.AccountConfig',
+
     # third party apps
+    'rest_framework',
+    'celery',
 ]
 
 MIDDLEWARE = [
